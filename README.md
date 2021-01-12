@@ -1,9 +1,8 @@
-# CENG213 THE1 Tester
--Tester for the First Take Home Exam of CENG213 Course.    
--Copy your .h and .cpp files into the "solutions" file and run the tester.  
--Tester is written in python3.   
--You can run the tester with "python3 tester.py" command.  
--If you have any other testcases, you can send pr.  
--I did not use any flags in my tester due to some linker problems, mind that  
--You can go into files and check for some comments, I wrote what did I do in the testcases.  
--GOOD LUCK :)
+# CENG213 PA3 Tester
+-Tester for the Programming Assignment of CENG213 Course.    
+-Copy your .h and .cpp files into the "solutions" file and run the tester. (Every file in student pack)
+-Tester is written in Python3.   
+-You can run the tester with "python3 tester.py" command. (It may differ according to your os)  
+-If you have any other testcases etc. ,you can send pull requests.   
+-You can find photos of graphs in testcases, some photos are not found since size of graphs is large.  
+-Good luck! :)
