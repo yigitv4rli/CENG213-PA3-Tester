@@ -13,10 +13,10 @@ print(bar * '.',end = '')
 print("0%",end = '\r')
 
 for compileFile in ops:
-	os.system("g++ -c -ansi -Wall -pedantic-errors -O0 -std=c++11 " + compileFile)
+	os.system("g++ -c -Wall -pedantic-errors -O0 -std=c++11 " + compileFile)
 
 for caseNum in range(1,NUM_OF_TESTCASE+1):
-	os.system("g++ -c -ansi -Wall -pedantic-errors -O0 -std=c++11 tc/testcase" + str(caseNum) + ".cpp >> out/output" + str(caseNum)+".txt")
+	os.system("g++ -c -Wall -pedantic-errors -O0 -std=c++11 tc/testcase" + str(caseNum) + ".cpp >> out/output" + str(caseNum)+".txt")
 
 
 for caseNum in range(1,NUM_OF_TESTCASE+1):
